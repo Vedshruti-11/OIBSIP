@@ -21,9 +21,9 @@ public class Game {
 				break;
 
 			} else if (number > guess) {
-				JOptionPane.showMessageDialog(null, "Incorrect guess! Your input is greater than generated the number");
+				JOptionPane.showMessageDialog(null, "Incorrect guess! Your input is greater than the generated number");
 			} else {
-				JOptionPane.showMessageDialog(null, "Incorrect guess! Your input is lesser than generated the number");
+				JOptionPane.showMessageDialog(null, "Incorrect guess! Your input is lesser than the generated number");
 			}
 			tries--;
 		}
